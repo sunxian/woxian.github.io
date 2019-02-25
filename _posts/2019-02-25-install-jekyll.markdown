@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Windows下安装Jekyll"
+description: "Windows下安装Jekyll,Windows下安装Ruby"
 date:   2019-02-25 10:28:00 +0800
-categories: jekyll update
+categories: Windows jekyll安装
+tags: [Github Pages, Jekyll,Ruby]
 ---
 # Windows下安装Jekyll
 ##  环境安装
