@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+<style>
+    .ss{
+        background-image: url('/assets/images/rabbit.jpg');
+        background-size: 5%;
+        background-repeat: true;
+        opacity:0.2;
+    }
+</style>
+
+{%- include header.html -%}
+
+<main class="page-content " aria-label="Content">
+  
+    <div class="wrapper">
+        {{ content }}
+    </div>
+  
+</main>
+
+{%- include footer.html -%}
+
+</body>
+
+</html>
+
+
